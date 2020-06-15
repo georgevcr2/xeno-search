@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Pyra",
+        "element": "Fire",
+        "thumbnail": "pyrathumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Nia",
+        "element": "Water",
+        "thumbnail": "niathumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Mythra",
+        "element": "Light",
+        "thumbnail": "mythrathumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Dromarch",
+        "element": "Water",
+        "thumbnail": "dromarchthumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Roc",
+        "element": "Air",
+        "thumbnail": "rocthumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Poppi alpha",
+        "element": "Earth",
+        "thumbnail": "alphathumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Poppi QT",
+        "element": "Fire",
+        "thumbnail": "qtthumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Poppi QTpi",
+        "element": "Ice",
+        "thumbnail": "qtpithumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Brighid",
+        "element": "Fire",
+        "thumbnail": "brighidthumb.png",
+        "description": "",
+        "keyword": ""
+    },
+    {
+        "name": "Pandoria",
+        "element": "Electric",
+        "thumbnail": "pandythumb.png",
+        "images": ["pandythumb.png", "pandyfogthumb.png" ],
+        "description": "",
+        "keyword": ""
+    }
+]
