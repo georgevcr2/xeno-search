@@ -1,14 +1,28 @@
 import React from 'react';
 
-import BladeImage from './BladeImage/BladeImage';
+import BladeImage from '../../BladeImage/BladeImage';
+import BladeMiniDescription from '../../BladeMiniDescription/BladeMiniDescription';
 
 const bladeRow = (props) => {
-    const row = [];
-    props.list.forEach(ele => {
-        row.push(<BladeImage key={ele.name} imgClicked={props.imgClicked} source={props.images[ele.thumbnail]} altText={ele.name} />);
-    });
+    const bladeImages = [];
+    props.rowList.forEach(ele => {
+        bladeImages.push(<BladeImage key={ele.name} blade={ele} clicked={props.clicked} />);
+    }); 
 
-    return <div>{row}</div>;
+    let bladeMiniDesc = null;
+    if (props.doesRowContainActiveBlade) {
+        bladeMiniDesc = <BladeMiniDescription 
+            activeThumbnail={props.activeThumbnail} 
+            descThumbClicked={props.descThumbClicked} 
+            activeBlade={props.activeBlade}/>;
+    };
+
+    return (
+        <div>
+            {bladeImages}
+            {bladeMiniDesc}
+        </div> 
+    );
 };
 
 export default bladeRow;

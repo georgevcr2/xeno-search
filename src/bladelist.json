@@ -2,72 +2,92 @@
     {
         "name": "Pyra",
         "element": "Fire",
-        "thumbnail": "pyrathumb.png",
-        "description": "",
-        "keyword": ""
+        "thumbnailimages": ["pyrathumb.png"],
+        "description": "Pyra is a kind-hearted, mild-mannered, soft spoken young woman who desires peace among both Blades and Drivers. Despite being gentle around people, she is not afraid to fight to protect those she cares about.\nPyra is usually seen to be very doubtful of her worth and considers herself to be a burden and a danger to others. Due to this, she originally wants to go to Elysium alongside Mythra to beg the Architect for their death, which they could normally not obtain due to their condition as Blades.",
+        "fullimage" : "pyrafullimg.png",
+        "weapon": "Aegis Sword",
+        "keyword": "Girl Fire Legendary Aegis Sword",
+        "rarity": "Legendary"
     },
     {
         "name": "Nia",
         "element": "Water",
-        "thumbnail": "niathumb.png",
+        "thumbnailimages": ["niathumb.png", "niadrvthumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
         "name": "Mythra",
         "element": "Light",
-        "thumbnail": "mythrathumb.png",
+        "thumbnailimages": ["mythrathumb.png", "mythratornathumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
         "name": "Dromarch",
         "element": "Water",
-        "thumbnail": "dromarchthumb.png",
+        "thumbnailimages": ["dromarchthumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
         "name": "Roc",
         "element": "Air",
-        "thumbnail": "rocthumb.png",
+        "thumbnailimages": ["rocthumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
-        "name": "Poppi alpha",
+        "name": "Poppi α",
         "element": "Earth",
-        "thumbnail": "alphathumb.png",
+        "thumbnailimages": ["alphathumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
         "name": "Poppi QT",
         "element": "Fire",
-        "thumbnail": "qtthumb.png",
+        "thumbnailimages": ["qtthumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
-        "name": "Poppi QTpi",
+        "name": "Poppi QTπ",
         "element": "Ice",
-        "thumbnail": "qtpithumb.png",
+        "thumbnailimages": ["qtpithumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
         "name": "Brighid",
         "element": "Fire",
-        "thumbnail": "brighidthumb.png",
+        "thumbnailimages": ["brighidthumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     },
     {
         "name": "Pandoria",
         "element": "Electric",
-        "thumbnail": "pandythumb.png",
-        "images": ["pandythumb.png", "pandyfogthumb.png" ],
+        "thumbnailimages": ["pandythumb.png", "pandyfogthumb.png"],
         "description": "",
-        "keyword": ""
+        "weapon": "",
+        "keyword": "",
+        "rarity": ""
     }
 ]

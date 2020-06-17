@@ -1,3 +1,4 @@
 export {
-    setCurrentBlade
+    setActiveBlade,
+    setActiveThumbnail
 } from './displayBlade'

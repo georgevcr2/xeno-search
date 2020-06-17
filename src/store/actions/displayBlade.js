@@ -1,8 +1,14 @@
 import * as actionTypes from './actionTypes';
 
-export const setCurrentBlade = (bladeName) => {
+export const setActiveBlade = (bladeInfo) => {
     return {
-        type: actionTypes.SET_CURRENT_BLADE,
-        bladeName: bladeName
+        type: actionTypes.SET_ACTIVE_BLADE,
+        bladeInfo: bladeInfo
+    };
+};
+
+export const setActiveThumbnail = () => {
+    return {
+        type: actionTypes.SET_ACTIVE_THUMBNAIL
     };
 };
